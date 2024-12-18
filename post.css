@@ -64,8 +64,14 @@ p {
   font-size: large;
 }
 
-footer {
+.bas,
+.txt-bas {
   display: flex;
+  align-items: flex-start;
   flex-direction: row-reverse;
-  align-items: center;
+  margin-right: 26%;
+}
+
+.text {
+  padding-right: 15%;
 }
