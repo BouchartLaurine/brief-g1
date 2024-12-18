@@ -1,0 +1,71 @@
+/* Top */
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-left: 24%;
+  margin-right: 26%;
+}
+
+li {
+  list-style-type: none;
+  display: inline;
+  margin-right: 20px;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/* Body */
+
+h1 {
+  font-family: "Montserrat, sans ";
+}
+
+body {
+  font-family: "Abril Fatface";
+  text-align: center;
+  font-size: small;
+}
+/* Titles */
+.titre-p1 {
+  color: #f08080;
+  font-size: 40px;
+}
+
+.titre-p2,
+.titre-p3 {
+  color: #1a237e;
+}
+
+.titre-p2 {
+  font-size: 30px;
+}
+
+.titre-p3 {
+  font-size: 20px;
+}
+
+/* End of titles */
+p {
+  text-align: left;
+  margin-bottom: auto;
+  padding: 10px;
+  margin: 500px;
+  padding-left: center;
+  margin-top: 15px;
+}
+/* Foot */
+.a-propos {
+  color: #f08080;
+  font-size: large;
+}
+
+footer {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+}
