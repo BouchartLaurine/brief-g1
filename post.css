@@ -4,8 +4,8 @@
   justify-content: space-between;
   align-items: center;
 
-  margin-left: 24%;
-  margin-right: 26%;
+  margin-left: 9%;
+  margin-right: 11%;
 }
 
 li {
@@ -20,6 +20,9 @@ a {
 }
 
 /* Body */
+
+.imgpc {
+}
 
 h1 {
   font-family: "Montserrat, sans ";
@@ -52,26 +55,68 @@ body {
 /* End of titles */
 p {
   text-align: left;
-  margin-bottom: auto;
-  padding: 10px;
-  margin: 500px;
-  padding-left: center;
-  margin-top: 15px;
+
+  padding: 100px;
+  margin: 200px;
+  padding: 1%;
+  margin-top: 1px;
 }
-/* Foot */
+/* À propos */
 .a-propos {
   color: #f08080;
-  font-size: large;
+  font-size: xx-large;
+  margin-bottom: 5%;
 }
 
-.bas,
-.txt-bas {
+.hero {
   display: flex;
-  align-items: flex-start;
-  flex-direction: row-reverse;
-  margin-right: 26%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2rem;
+  background-color: #fff;
 }
 
-.text {
-  padding-right: 15%;
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h1 h2 {
+  font-family: "Abril Fatface", serif;
+  font-size: 3rem;
+  color: #d05270;
+  margin-bottom: 1rem;
+}
+
+.hero-text p {
+  margin-bottom: 1.5rem;
+}
+
+/* Hero Section */
+.hero-buttons a {
+  display: inline-block;
+  margin-right: 1rem;
+  padding: 0.5rem 1.5rem;
+
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s ease;
+}
+
+.hero-buttons a img {
+  width: 1.2rem;
+  height: auto;
+}
+
+.btn-twitter {
+  background-color: #1da1f2;
+}
+.btn-linkedin {
+  background-color: #0077b5;
+}
+.btn-medium {
+  background-color: #000000;
+}
+.hero-buttons a:hover {
+  background-color: #ff5a5f;
 }
