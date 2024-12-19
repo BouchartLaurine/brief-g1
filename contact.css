@@ -18,11 +18,15 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 5rem;
+
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-header .logo img {
-  height: 50px;
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
 }
 
 header .menu {
@@ -75,13 +79,6 @@ main section ul li {
   margin-bottom: 0.5rem;
   font-size: 1rem;
   color: #333;
-}
-
-footer {
-  text-align: center;
-  padding: 1rem;
-  background-color: #333;
-  color: #fff;
 }
 
 form {
