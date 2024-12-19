@@ -91,6 +91,9 @@ header .menu li a:hover  {
   width: 1.2rem; /* Taille de l'icône */
   height: auto; /* Garde les proportions */
 }
+.active {
+  color: #0077b5;
+}
 
 .btn-twitter  {
   background-color: #1DA1F2;
