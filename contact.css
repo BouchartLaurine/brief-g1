@@ -56,9 +56,7 @@ main section {
 }
 
 main section h2 {
-  font-family: "Abril Fatface", serif;
   font-size: 2rem;
-  color: #d05270;
   margin-bottom: 1rem;
 }
 
@@ -137,10 +135,18 @@ button:hover {
   background-color: #ff5a5f;
 }
 
-/* Footer */
 footer {
   text-align: center;
   padding: 1rem;
   background-color: #333;
   color: #fff;
+}
+
+.marge {
+  margin-left: 450px;
+  margin-top: 40px;
+}
+
+.contact-section h1 {
+  color: #d05270;
 }
