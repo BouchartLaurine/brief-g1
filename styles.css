@@ -20,8 +20,9 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 5rem;
-  
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+main {
+  margin-left: 5%;
 }
 
 header nav {
@@ -40,7 +41,6 @@ header .menu {
 header .menu li a {
   text-decoration: none;
   color: #333;
-  
   transition: color 0.3s ease;
 }
 
@@ -104,8 +104,7 @@ header .menu li a:hover  {
 }
 
 .hero-image img {
-  max-width: 100%;
-  height: auto;
+  width: 600px;
 }
 
 /* Blog Section */
