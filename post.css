@@ -4,16 +4,23 @@
   justify-content: space-between;
   align-items: center;
 
-  margin-left: 9%;
+  margin-left: 11%;
   margin-right: 11%;
 }
-
+/* Menu */
+header .menu {
+  list-style: none;
+  display: flex;
+  gap: 2rem; /* Espacement entre les éléments du menu */
+}
 li {
   list-style-type: none;
   display: inline;
   margin-right: 20px;
 }
-
+#active {
+  color: #0077b5;
+}
 a {
   color: black;
   text-decoration: none;
@@ -49,7 +56,7 @@ body {
   font-size: 20px;
 }
 
-/* End of titles */
+/* End of Titles */
 p {
   text-align: left;
 
@@ -104,17 +111,22 @@ p {
   border-radius: 5px;
   transition: background 0.3s ease;
 }
-
-.hero-buttons a img {
-  width: 1.2rem;
-  height: auto;
+/* Hero buttons */
+.hero-buttons a {
   display: inline-block;
   margin-right: 1rem;
   padding: 0.5rem 1.5rem;
+  color: #fff;
   text-decoration: none;
   border-radius: 5px;
   transition: background 0.3s ease;
+  margin-left: 1%;
+  margin-right: 1%;
 }
+
+.hero-buttons a img {
+  margin-right: 25px; /* Ajoute de l'espace entre l'icône et le texte */
+  vertical-align: text-bottom;
 }
 
 .btn-twitter {
@@ -130,13 +142,6 @@ p {
   background-color: #d05270;
 }
 
-.hero-buttons,
-.btn-linkedin,
-.btn-medium,
-.btn-twitter {
-  margin-top: 10%;
-}
-
 /* Hero img */
 
 .hero-image {
@@ -146,7 +151,6 @@ p {
   display: flex;
   justify-content: flex-start;
 }
-
 
 /* Footer */
 .copy {
