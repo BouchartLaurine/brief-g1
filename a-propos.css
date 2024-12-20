@@ -73,6 +73,11 @@ main section ul li {
   color: #333;
 }
 
+footer {
+  text-align: center;
+  padding: 1rem;
+}
+
 #moz {
   color: #0077b5;
 }
