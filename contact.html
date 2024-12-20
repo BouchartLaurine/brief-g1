@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact - Mon Site Web</title>
     <link href="contact.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Montserrat:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -12,8 +16,8 @@
         <img src="logo.png" alt="Logo Squedrong" />
       </div>
       <ul class="menu">
-        <li class="active"><a href="index.html">Blog</a></li>
-        <li><a href="post.html">Post</a></li>
+        <li><a href="post.html" id="moz">Blog</a></li>
+        <li><a href="#">CV</a></li>
         <li><a href="a-propos.html">À propos</a></li>
         <li><a href="contact.html">Contact</a></li>
       </ul>
@@ -21,11 +25,6 @@
 
     <section class="contact-section">
       <h1>Contactez-nous</h1>
-      <p>
-        Si vous avez des questions ou des demandes, n'hésitez pas à nous
-        contacter via le formulaire ci-dessous.
-      </p>
-
       <form class="marge" action="/envoyer_message" method="POST">
         <div class="form-group">
           <label for="nom">Nom :</label>

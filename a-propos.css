@@ -1,6 +1,7 @@
 h1 {
   color: #d05270;
   font-family: "Abril Fatface", serif;
+  font-size: 3rem;
 }
 
 * {
@@ -37,7 +38,7 @@ header nav {
 header .menu {
   list-style: none;
   display: flex;
-  gap: 2rem; /* Espacement entre les éléments du menu */
+  gap: 2rem;
 }
 
 header .menu li a {
@@ -72,6 +73,6 @@ main section ul li {
   color: #333;
 }
 
-footer {
-  text-decoration-color: #333;
+#moz {
+  color: #0077b5;
 }
