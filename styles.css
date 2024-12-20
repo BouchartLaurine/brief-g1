@@ -42,7 +42,7 @@ header .menu {
 header .menu li a {
   text-decoration: none;
   color: #333;
-  font-weight: 600;
+  
   transition: color 0.3s ease;
 }
 
@@ -86,8 +86,6 @@ header .menu li a:hover  {
 }
 
 .hero-buttons a img {
-  width: 1rem; /* Taille de l'icône */
-  height: auto; /* Garde les proportions */
   margin-right: 25px;/* Ajoute de l'espace entre l'icône et le texte */
   vertical-align: text-bottom;
   
