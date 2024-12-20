@@ -147,3 +147,7 @@ footer {
 .contact-section h1 {
   color: #d05270;
 }
+
+footer {
+  text-decoration-color: #333;
+}

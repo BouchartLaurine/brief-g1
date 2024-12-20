@@ -71,3 +71,7 @@ main section ul li {
   font-size: 1rem;
   color: #333;
 }
+
+footer {
+  text-decoration-color: #333;
+}
